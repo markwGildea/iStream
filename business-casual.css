@@ -19,7 +19,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -42,24 +41,19 @@ hr {
 }
 
 .navbar-brand {
-    text-transform: uppercase;
+    
     font-weight: 900;
     letter-spacing: 2px;
 }
 
 .navbar-nav {
-    text-transform: uppercase;
+    
     font-weight: 400;
     letter-spacing: 3px;
 }
 
 .img-full {
     min-width: 100%;
-}
-
-.brand-before,
-.brand-name {
-    text-transform: capitalize;
 }
 
 .brand-before {
@@ -205,7 +199,7 @@ margin: 100px;
 }
 
 
-.josh .sticker-img {
+/*.josh .sticker-img {
 background-image: url(img/josh.jpg);
 }
 
@@ -219,15 +213,15 @@ background-image: url(img/josh.jpg);
 
 .center .sticker-shadow {
             opacity: 0.6;
-        }
+        }*/
 
-.ara .sticker-img {
+/*.ara .sticker-img {
     background-image: url(img/ara.jpg);
 }
 
 .ara .sticker-shadow {
     opacity: 0.6;
-}
+}*/
 
 .names {
     margin-left: 45px;
