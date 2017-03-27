@@ -2,59 +2,59 @@
 // var imdb = require('imdb-api');
 
 // Link to our Firebase Database.
-var config = {
-    apiKey: "AIzaSyDDKwd7hwHCCaDx6LWfHaoTj7nUnwrhXc8",
-    authDomain: "myfirstfirebase-d797a.firebaseapp.com",
-    databaseURL: "https://myfirstfirebase-d797a.firebaseio.com",
-    storageBucket: "myfirstfirebase-d797a.appspot.com",
-    messagingSenderId: "80889691492"
-};
+// var config = {
+//     apiKey: "AIzaSyDDKwd7hwHCCaDx6LWfHaoTj7nUnwrhXc8",
+//     authDomain: "myfirstfirebase-d797a.firebaseapp.com",
+//     databaseURL: "https://myfirstfirebase-d797a.firebaseio.com",
+//     storageBucket: "myfirstfirebase-d797a.appspot.com",
+//     messagingSenderId: "80889691492"
+// };
 // Initializing our firebase app
-firebase.initializeApp(config);
+// firebase.initializeApp(config);
 
 // Returning the database from the firebase object, my using a method.
-var database = firebase.database();
+// var database = firebase.database();
 
 // Starting our clickCounter at 0
-var clickCounter = 0;
+// var clickCounter = 0;
 
 // FUNCTIONS + EVENTS
 // --------------------------------------------------------------------------------
 
 // on click of the button with the ID "clickButton"
 // 1. update counter in our javascript
-$("#clickButton").on("click", function() {
+// $("#clickButton").on("click", function() {
 
-  // add 1 to the clickCounter
-  clickCounter++;
+//   // add 1 to the clickCounter
+//   clickCounter++;
 
-  // update the database
-  database.ref().set({
-    clickCount: clickCounter
-  });
-});
+//   // update the database
+//   database.ref().set({
+//     clickCount: clickCounter
+//   });
+// });
 
   // listening for the value event, if value changes of variables referenced on screen.
   // watching for changes in the database
-  database.ref().on("value", function(snapshot) {
+  // database.ref().on("value", function(snapshot) {
 
     // our whole freaking database
-    console.log(snapshot.val());
+    // console.log(snapshot.val());
 
     // grabbing the clickValue h1 and updating the number of clicks and using jqeury to update the DOM
-    $("#clickValue").html(snapshot.val().clickCount);
+    // $("#clickValue").html(snapshot.val().clickCount);
 
     //  Initial load of the page, set the clickCounter
     //to something besides 0
-    clickCounter = snapshot.val().clickCount;
+    // clickCounter = snapshot.val().clickCount;
 
     //
-  }, function(errorObject) {
+  // }, function(errorObject) {
 
     //
-    console.log("The read failed: " + errorObject.code);
+  //   console.log("The read failed: " + errorObject.code);
 
-  });
+  // });
 
 //omdb API.
 $('#findMovie').on('click', function() {
@@ -95,11 +95,11 @@ var processYoutube = function(youtube){
     console.log("youtube object",youtube);
     $('#movie-input').val("");
     //
-    for(var i =0; i<2; i++){
+    for(var i = 0; i < 1; i++){
       var youtubeOb = youtube.items[i];
       var videoId = youtubeOb.id.videoId;
       console.log(videoId);
-      var youtubeDiv=$('<div class="video col-md-6">');
+      var youtubeDiv=$('<div class="video col-md-12">');
 
       var youtubeIframe = $('<iframe>');
 
@@ -160,7 +160,7 @@ var processMovieData = function(movieData) {
             // adds movie poster
             $('#moviePoster').html(' <img class="img-responsive img-border img-left" src=' + movieData.Poster + ' alt="">');
 
-            $("#tbInfo").html("<tr><th>Title</th><td>"+movieData.Title+" ("+(movieData.Year)+")</td></tr><tr><th>Genre</th><td>"+movieData.Genre+"</td></tr><tr><th>Metascore Rating</th><td>"+movieData.Metascore+"</td></tr><tr><th>Awards</th><td>"+movieData.Awards+"</td></tr><tr><th>Rated</th><td>"+movieData.Rated+"</td></tr><tr><th>Director</th><td>"+movieData.Director+"</td></tr><tr><th>Casts</th><td>"+movieData.Actors+"</td></tr><tr><th>Runtime</th><td>"+movieData.Runtime+"</td></tr><tr><th>Plot</th><td>"+movieData.Plot+"</th></tr>");
+            $("#tbInfo").html("<tr><th>Title</th><td>"+movieData.Title+" ("+(movieData.Year)+")</td></tr><tr><th>Genre</th><td>"+movieData.Genre+"</td></tr><tr><th>IMDb Rating</th><td>"+movieData.imdbRating+"</td></tr><tr><th>Metascore Rating</th><td>"+movieData.Metascore+"</td></tr><tr><th>Awards</th><td>"+movieData.Awards+"</td></tr><tr><th>Rated</th><td>"+movieData.Rated+"</td></tr><tr><th>Director</th><td>"+movieData.Director+"</td></tr><tr><th>Casts</th><td>"+movieData.Actors+"</td></tr><tr><th>Runtime</th><td>"+movieData.Runtime+"</td></tr><tr><th>Plot</th><td>"+movieData.Plot+"</th></tr>");
 
 
         }
