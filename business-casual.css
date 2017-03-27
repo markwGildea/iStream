@@ -232,8 +232,9 @@ background-image: url(img/josh.jpg);
 }
 
 body {
-    font-weight: 500;
-    color: black;
+    font-weight: 600;
+    color: rgba(27, 26, 26, 0.84);
     font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
