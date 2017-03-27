@@ -78,7 +78,7 @@ hr {
 .box {
     margin-bottom: 10px;
     padding: 5px 10px;
-    background: #fff;
+    background: #333;
     background: rgba(255,255,255,0.5);
 }
 
@@ -101,7 +101,7 @@ hr {
 }
 
 footer {
-    background: #fff;
+    background: #333;
     background: rgba(255,255,255,0.5);
 }
 
