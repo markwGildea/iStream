@@ -160,7 +160,7 @@ var processMovieData = function(movieData) {
             // adds movie poster
             $('#moviePoster').html(' <img class="img-responsive img-border img-left" src=' + movieData.Poster + ' alt="">');
 
-            $("#tbInfo").html("<tr><th>Title</th><td>"+movieData.Title+" ("+(movieData.Year)+")</td></tr><tr><th>Genre</th><td>"+movieData.Genre+"</td></tr><tr><th>IMDb Rating</th><td>"+movieData.imdbRating+"</td></tr><tr><th>Metascore Rating</th><td>"+movieData.Metascore+"</td></tr><tr><th>Awards</th><td>"+movieData.Awards+"</td></tr><tr><th>Rated</th><td>"+movieData.Rated+"</td></tr><tr><th>Director</th><td>"+movieData.Director+"</td></tr><tr><th>Casts</th><td>"+movieData.Actors+"</td></tr><tr><th>Runtime</th><td>"+movieData.Runtime+"</td></tr><tr><th>Plot</th><td>"+movieData.Plot+"</th></tr>");
+            $("#tbInfo").html("<tr><th>Title</th><td>"+movieData.Title+" ("+(movieData.Year)+")</td></tr><tr><th>Genre</th><td>"+movieData.Genre+"</td></tr><tr><th>Plot</th><td>"+movieData.Plot+"</th></tr><tr><th>IMDb Rating</th><td>"+movieData.imdbRating+"</td></tr><tr><th>Metascore Rating</th><td>"+movieData.Metascore+"</td></tr><tr><th>Awards</th><td>"+movieData.Awards+"</td></tr><tr><th>Rated</th><td>"+movieData.Rated+"</td></tr><tr><th>Director</th><td>"+movieData.Director+"</td></tr><tr><th>Casts</th><td>"+movieData.Actors+"</td></tr><tr><th>Runtime</th><td>"+movieData.Runtime+"</td></tr>");
 
 
         }
