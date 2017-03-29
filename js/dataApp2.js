@@ -105,7 +105,7 @@ var processYoutube = function(youtube){
 
       youtubeIframe.attr('src','https://www.youtube.com/embed/'+videoId+'');
       youtubeIframe.attr('width','100%');
-      youtubeIframe.attr('height','426');
+      youtubeIframe.attr('height','417');
 
       youtubeIframe.attr('allowfullscreen','allowfullscreen');
 

@@ -9,3 +9,45 @@
 body {
 	font-family: arial;
 }
+
+#findMovie {
+	background-color: transparent;
+	border: transparent;
+	color: transparent;
+}
+
+a {
+    color: #100b0a;
+}
+
+button, input, optgroup, select, textarea {
+   /* margin: 0;
+    font: small-caps;
+    color: inherit;*/
+    font-weight: lighter;
+}
+
+#form-group {
+	padding-bottom: 0px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 165px;
+}
+
+#moviePoster {
+	padding-left: 20px; 
+	margin-right: 0px;
+	/*padding-top: 9px;
+*/}
+
+#movieInfo {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#fixing {
+	/*margin-right: 0px;
+	margin-left: 0px;*/
+	padding-top: 34px;
+	padding-bottom: 50px;
+}
