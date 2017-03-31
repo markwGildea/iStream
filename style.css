@@ -51,6 +51,7 @@ button, input, optgroup, select, textarea {
 	padding-left: 0px;
 	padding-right: 0px;
 	border: transparent;
+	text-decoration: strong;
 	font-weight: lighter;
 	font-family: arial, serif;
 }
