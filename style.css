@@ -1,13 +1,15 @@
 .form-control {
 	background-color: #000000;
 	letter-spacing: 0.8px;
-	height: 39px;
+	height: 40px;
+	width: 50%;
 	font-size: 16px;
 	color: #f9f9f9;
-	/*border: transparent;*/
+	border: transparent;
 	font-family: sans-serif;
-	/*border: 2px solid #f9f9f9;*/
-	padding-right: 20px;
+	border: 3px solid #f9f9f9;
+	margin-left: 25%;
+	/*border-bottom: 5px;*/
 }
 body {
 	font-family: Tahoma;
@@ -39,8 +41,9 @@ button, input, optgroup, select, textarea {
 }
 
 #moviePoster {
-	padding-left: 67px; 
+	padding-left: 20px; 
 	margin-right: 0px;
+	/*width: 25%;*/
 	/*padding-top: 9px;
 */}
 
@@ -82,9 +85,11 @@ button, input, optgroup, select, textarea {
 
 .searchAny {
 	color: grey;
-	padding-top: 100px;
+	padding-top: 80px;
 	font-family: Tahoma;
 	text-align: center;
-	text-decoration: bold;
-	font-size: 3em;
+	font-size: 4em;
+	padding-left: 220px;
+	padding-right: 220px;
 }
+
