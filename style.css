@@ -4,8 +4,10 @@
 	height: 39px;
 	font-size: 16px;
 	color: #f9f9f9;
-	border: transparent;
+	/*border: transparent;*/
+	font-family: sans-serif;
 	/*border: 2px solid #f9f9f9;*/
+	padding-right: 20px;
 }
 body {
 	font-family: sans-serif;
@@ -51,8 +53,8 @@ button, input, optgroup, select, textarea {
 
 #fixing {
 	/*margin-top: 100px;*/
-	padding-top: 100px;
-	padding-bottom: 450px;
+	padding-top: 40px;
+	padding-bottom: 480px;
 	/*margin-top: 50px;*/
 	m/*argin-bottom: 400px;*/
 }
