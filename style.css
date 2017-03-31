@@ -1,18 +1,18 @@
 .form-control {
 	background-color: #000000;
 	letter-spacing: 0.8px;
-	height: 40px;
-	width: 50%;
+	height: 32px;
+	width: 33.3%;
 	font-size: 16px;
 	color: #f9f9f9;
 	border: transparent;
 	font-family: sans-serif;
 	border: 3px solid #f9f9f9;
-	margin-left: 25%;
+	margin-left: 33.3%;
 	/*border-bottom: 5px;*/
 }
 body {
-	font-family: Tahoma;
+	font-family: Palatino, Palatino LT STD, Palatino Linotype, Book Antiqua, Georgia, serif;
 	background: url('img/movie.jpg') no-repeat center center fixed;
 }
 
@@ -56,7 +56,7 @@ button, input, optgroup, select, textarea {
 
 #fixing {
 	/*margin-top: 100px;*/
-	padding-top: 40px;
+	padding-top: 35px;
 	padding-bottom: 480px;
 	/*margin-top: 50px;*/
 	m/*argin-bottom: 400px;*/
@@ -77,6 +77,7 @@ button, input, optgroup, select, textarea {
 	height: 150px;
 	z-index: 99;
 	background: url('img/movie.jpg') no-repeat center center fixed;
+	font-family: Palatino, Palatino LT STD, Palatino Linotype, Book Antiqua, Georgia, serif;
 }
 
 .footer {
@@ -86,7 +87,7 @@ button, input, optgroup, select, textarea {
 .searchAny {
 	color: grey;
 	padding-top: 80px;
-	font-family: Tahoma;
+	font-family: Palatino, Palatino LT STD, Palatino Linotype, Book Antiqua, Georgia, serif;
 	text-align: center;
 	font-size: 4em;
 	padding-left: 220px;
