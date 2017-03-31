@@ -6,7 +6,7 @@
 	font-size: 16px;
 	color: #f9f9f9;
 	border: transparent;
-	font-family: Baskerville, Baskerville Old Face, Goudy Old Style, Garamond, Times New Roman, serif;
+	font-family: arial, serif;
 	border: 3px solid #f9f9f9;
 	margin-left: 33.3%;
 	/*border-bottom: 5px;*/
@@ -52,6 +52,7 @@ button, input, optgroup, select, textarea {
 	padding-right: 0px;
 	border: transparent;
 	font-weight: lighter;
+	font-family: arial, serif;
 }
 
 #fixing {
@@ -82,15 +83,20 @@ button, input, optgroup, select, textarea {
 
 .footer {
 	height: 70px
+	
 }
 
 .searchAny {
 	color: grey;
 	padding-top: 60px;
-	font-family: Baskerville, Baskerville Old Face, Goudy Old Style, Garamond, Times New Roman, serif;
+	font-family: arial, serif;
 	text-align: center;
 	font-size: 4em;
 	padding-left: 220px;
 	padding-right: 220px;
+}
+
+#where {
+	font-family: arial;
 }
 
